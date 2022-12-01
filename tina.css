@@ -1,0 +1,351 @@
+.header{
+    width: 100%;
+}
+
+.logo img{
+    height: 100%;
+    width: 70%;
+}
+
+.nav li{
+    margin: 0 15px;
+}
+
+.nav li a{
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-bottom: 0.5px solid #000
+    }
+
+.icon i{
+    color: #393d43;
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 10px;
+}
+
+.nav li a:hover{
+    color: black;
+    opacity: 20%;   
+    cursor: pointer;
+    transition: 5ms ease-in;
+}
+
+.icon i:hover{
+    color: black;
+    opacity: 20%;
+    cursor: pointer;
+}
+
+/* Scroll + Sub Menu */
+
+ul li {
+  display: inline-block;
+  position: relative;
+ 
+}
+
+ul li a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;  
+  padding-top: 15px;
+}
+
+ul li ul li{
+  display: block;
+}
+
+ul li ul{
+  width: 100%;
+  padding-top: 5px;
+  position: absolute;
+  z-index: 999;
+  display: none;
+}
+
+ul li a:hover{
+  color: #383a3d;
+}
+
+ul li:hover ul{
+  display: block;
+}
+
+.banner{
+    height: 100vh;
+}
+
+.banner img{
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 100%;
+}
+
+.Text h1{
+    position: absolute;
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    font-size: 40px;
+    left: 38%;
+    top: 18%;
+}
+
+.search-container{
+    width: 100%;
+    min-height: 70vh;
+    position: absolute;
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar{
+    position: absolute;
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    background: black;
+    align-items: center;
+    opacity: 20%;
+    border-radius: 60px;
+    padding: 10px 20px;
+}
+
+.search-bar ::placeholder{
+  color: white;
+}
+
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px;
+    font-size: 18px;
+    color: white;
+}
+
+.search-bar button {
+    width: 25px;
+    border: 0;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    background: #d8d8dd;
+    cursor: pointer;
+}
+
+.welcome-container{
+    height: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin : 40px;
+}
+
+.welcome-container img{
+    width: 100%;
+    margin: auto;
+}
+
+.content-1{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: left;
+    justify-content: center;
+    font-size: 80px;
+}
+
+.welcome-content p{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: left;
+    justify-content: center;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #6c757d;
+    display: block;
+    text-align: left;
+}
+
+ /* Parallax image */
+
+.parallax-container {
+    margin: 0 auto;
+    background: #f9f9f9;
+    font-size: 24px;
+}
+
+.parallax{
+    background: url('img/velizar-ivanov-xZjiUR7SWIQ-unsplash.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 1000px;
+    width: 98.5vw;
+
+}
+
+  /* Form KEEP IN TOUCH */
+  #container {
+    background-color: white;
+    position: absolute;
+    margin-left: 70vw;
+    margin-top: 16vh;
+  }
+  
+  form {
+    padding: 37.5px;
+    margin: 50px 0;
+  }
+  
+  h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 7px;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .underline {
+    border-bottom: solid 2px black;
+    margin: auto;
+    width: 80px;
+  }
+  
+  .icon_wrapper {
+    margin: 50px auto 0;
+    width: 100%;
+  }
+  
+  .email {
+      float: right;
+      width: 45%;
+  }
+  
+  input[type='text'], [type='email'], select, textarea {
+    font-family: 'Josefin Sans', sans-serif;
+    background: none;
+    border: none;
+    border-bottom: solid 2px #474544;
+    color: #474544;
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 0em 0 1.875em 0;
+    padding: 0 0 0.875em 0;
+    text-transform: uppercase;
+    width: 100%;
+  }
+  
+  input[type='text']:focus, [type='email']:focus, textarea:focus {
+      outline: none;
+      padding: 0 0 0.875em 0;
+  }
+  
+  .message {
+      float: none;
+  }
+  
+  .name {
+      float: left;
+      width: 45%;
+  }
+  
+  .telephone {
+    width: 100%;
+  }
+  
+  textarea {
+      line-height: 150%;
+      height: 150px;
+      resize: none;
+    width: 100%;
+  }
+  
+  #form_button {
+    background: none;
+    border: solid 2px #474544;
+    color: #474544;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Helvetica', Arial, sans-serif;
+    font-size: 0.875em;
+    font-weight: bold;
+    outline: none;
+    padding: 20px 35px;
+    text-transform: uppercase;
+    transition: 0.3s ease-in;
+  }
+  
+  #form_button:hover {
+    background: #474544;
+    color: #F2F3EB;
+  }
+
+
+  .services{
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 150px 0;
+  }
+  
+  .card{
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 5px 5px 25px grey;
+  }
+  
+  .feature{
+    overflow: hidden;
+    height: 350px;
+    background-size: cover;
+    object-fit: cover;
+  }
+
+  .feature img{
+    height: 100%;
+  }
+  
+  .content{
+    padding:24px;
+  }
+
+  .content p{
+    margin: 8px 0 24px;
+  }
+  
+  .icon-box{
+  }
+  
+  /* Chỉnh thời gian animation */
+  .animate__animated.animate__zoomIn {
+    --animate-duration: 1s;
+  }
+
+  
+
+
+
+  
